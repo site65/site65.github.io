@@ -1,0 +1,15 @@
+
+body {
+    color: red;
+
+    background: url(../../images/site_65.png);
+    background-size: cover;
+    
+}
+
+nav.download {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: initial;
+}

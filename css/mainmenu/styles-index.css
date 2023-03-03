@@ -1,0 +1,52 @@
+@font-face {
+    font-family: ilits;
+    src: url(../../police/ilits.ttf);
+}
+
+
+body {
+    margin: 0 auto;
+}
+ header.header {
+    align-items: center;
+ }
+
+section.top-page {
+    padding: 25px;
+    background: url('../../images/site65.jpg');
+    background-size: cover;
+    height: 200vh;
+    width: auto;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: yellow;
+}
+
+div.landing-page {
+    font-family: ilits;
+    color: black;
+    padding: 20px 80px;
+    
+}
+
+.big-title {
+    color: black;
+    font-size: 80px;
+}
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+}
+section.bloc-page {
+    background: url('../../images/site65.jpg');
+    background-size: cover;
+    height: 200vh;
+    width: auto;
+}
