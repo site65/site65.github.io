@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>easteregg</title>
+    <style>
+        /* Définition des styles CSS pour l'animation */
+        .animated-element {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: move;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        /* Définition de l'animation */
+        @keyframes move {
+            0% { top: 0; left: 0; }
+            50% { top: 200px; left: 200px; }
+            100% { top: 0; left: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-element"></div>
+    <h1>easteregg !</h1>
+</body>
+</html>
